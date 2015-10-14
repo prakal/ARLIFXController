@@ -64,61 +64,6 @@ window.addEventListener('load', function() {
               }
             }, {poi_id: 'marker'});
 
-            awe.projections.add({
-              id: 'ar_button_three',
-              geometry: {shape: 'cube', x: 110, y: 30, z: 5},
-              rotation: {y: 45},
-              position: {x: -5, y: -31, z: -5},
-              material: {
-                type: 'phong',
-                color: 0xFFFF00
-              }
-            }, {poi_id: 'marker'});
-
-            awe.projections.add({
-              id: 'ar_button_four',
-              geometry: {shape: 'cube', x: 150, y: 30, z: 5},
-              rotation: {y: 45},
-              position: {x: -5, y: -31, z: -5},
-              material: {
-                type: 'phong',
-                color: 0xFFFFFF
-              }
-            }, {poi_id: 'marker'});
-
-            awe.projections.add({
-              id: 'ar_button_five',
-              geometry: {shape: 'cube', x: 180, y: 30, z: 5},
-              rotation: {y: 45},
-              position: {x: -5, y: -31, z: -5},
-              material: {
-                type: 'phong',
-                color: 0x00FF00
-              }
-            }, {poi_id: 'marker'});
-
-            awe.projections.add({
-              id: 'ar_button_six',
-              geometry: {shape: 'cube', x: 150, y: 30, z: 5},
-              rotation: {y: 45},
-              position: {x: -5, y: -31, z: -5},
-              material: {
-                type: 'phong',
-                color: 0x0080FF
-              }
-            }, {poi_id: 'marker'});
-
-            awe.projections.add({
-              id: 'ar_button_seven',
-              geometry: {shape: 'cube', x: 100, y: 30, z: 5},
-              rotation: {y: 45},
-              position: {x: -5, y: -31, z: -5},
-              material: {
-                type: 'phong',
-                color: 0x8000FF
-              }
-            }, {poi_id: 'marker'});
-
             awe.events.add([{
               id: 'ar_tracking_marker',
               device_types: {
