@@ -1,8 +1,6 @@
-AR LIFX Controller
+Basic AR Controller
 ========
 
-An augmented reality controller to control LIFX lightbulbs using awe.js, the browser and IFTTT.
+An augmented reality controller using awe.js, and the a W3C compliant browser.
 
-If you make something neat from this code, please do let me know! I'm on Twitter at @thatpatrickguy, or you can find me at http://www.patrickcatanzariti.com.
-
-PatCat
+[Hosted here!] (http://prakal.github.io/Basic-AR/)
